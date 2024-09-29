@@ -25,8 +25,8 @@ cd petstore-api-tests
 
 2. Create and activate a virtual environment (optional but recommended):
 
-python -m venv venv
-source venv/bin/activate # On Windows, use venv\Scripts\activate
+```python -m venv venv```
+```source venv/bin/activate``` # On Windows, use ```venv\Scripts\activate```
 
 
 3. Install the required packages:
@@ -38,11 +38,11 @@ source venv/bin/activate # On Windows, use venv\Scripts\activate
 
 To run the tests, execute the following command in the project root directory:
 
-pytest test_pet_crud_operations.py
+```pytest test_pet_crud_operations.py```
 
 For a more detailed output, use:
 
-pytest -v test_pet_crud_operations.py
+```pytest -v test_pet_crud_operations.py```
 
 
 ## Test Structure
