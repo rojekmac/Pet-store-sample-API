@@ -19,8 +19,8 @@ The test suite covers the following operations:
 
 1. Clone this repository:
 
-git clone ```https://github.com/rojekmac/Pet-store-sample-API```
-cd petstore-api-tests
+```git clone https://github.com/rojekmac/Pet-store-sample-API```
+```cd petstore-api-tests```
 
 
 2. Create and activate a virtual environment (optional but recommended):
