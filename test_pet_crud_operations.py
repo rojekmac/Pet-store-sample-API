@@ -54,7 +54,7 @@ def test_update_pet(new_pet_data):
     assert updated_pet["name"] == "UpdatedDoggo"
 
 # Covering "Delete"
-def test_delete_pet(add_new_pet, new_pet_data):
+def test_delete_pet(new_pet_data):
     pet_id = new_pet_data["id"]
     response = requests.delete(f"{BASE_URL}/pet/{pet_id}")
     assert response.status_code == 200
