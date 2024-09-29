@@ -44,6 +44,12 @@ For a more detailed output, use:
 
 ```pytest -v test_pet_crud_operations.py```
 
+## Generating HTML Test Report
+
+This project uses pytest-html to generate a comprehensive HTML test report. To generate the report, run:
+
+```pytest --html=report.html --self-contained-html test_pet_crud_operations.py```
+
 
 ## Test Structure
 
