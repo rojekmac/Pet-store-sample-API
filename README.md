@@ -19,7 +19,7 @@ The test suite covers the following operations:
 
 1. Clone this repository:
 
-git clone https://github.com/rojekmac/Pet-store-sample-API
+git clone ```https://github.com/rojekmac/Pet-store-sample-API```
 cd petstore-api-tests
 
 
@@ -31,7 +31,7 @@ source venv/bin/activate # On Windows, use venv\Scripts\activate
 
 3. Install the required packages:
 
-pip install requests pytest pytest-html
+```pip install requests pytest pytest-html```
 
 
 ## Running the Tests
